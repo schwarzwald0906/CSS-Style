@@ -1,10 +1,11 @@
 export const InlineStyle = () => {
   const containerStyle = {
     border: "solid 2px #392eff",
-    padding: "20px",
+    borderRadius: "20px",
+    padding: "8px",
     margin: "8px",
     display: "flex",
-    justifyContent: "Space-around",
+    justifyContent: "space-around",
     alignItems: "center"
   };
 
@@ -14,7 +15,7 @@ export const InlineStyle = () => {
   };
 
   const buttonStyle = {
-    backGroundColor: "#abedd8",
+    backgroundColor: "#abedd8",
     border: "none",
     padding: "8px",
     borderRadius: "8px"
